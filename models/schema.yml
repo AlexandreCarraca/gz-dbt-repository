@@ -8,6 +8,19 @@
      tables:
        - name: sales
          identifier : raw_gz_sales
+         description: : sales of Greenweez / we have on row per product_id found in each orders_id
+            columns : 
+              - name : date_date
+              - name : date_date  
+                description : date of purchase
+              - name : orders_id
+                description : id of each purchase
+              - name :pdt_id
+                description : id of each product sold
+              -name : revenue
+                description : revenue per each order
+              - name : quantity
+                description : nb of product sold    
        - name: product
          identifier : raw_gz_product
        - name: ship
